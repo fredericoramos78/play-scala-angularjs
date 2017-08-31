@@ -1,8 +1,8 @@
 {
-  "name": "play-scala-angular",
+  "name": "play-scala-angular2",
   "version": "1.0.0",
   "private": true,
-  "description": "Play!Framework example project setup with Scala and Angular2.",
+  "description": "Play framework seed project using Scala and web layer with Angular2.",
   "scripts": {
     "build": "rimraf dist && webpack --config config/webpack.prod.js --bail",
     "serve": "lite-server -c=bs-config.json",
