@@ -1,0 +1,18 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# entry point of the application
+GET     /                           controllers.Assets.versioned(file = "ui/index.html")
+
+#
+# all controllers APIs should be placed here. Consider using some prefix to identify then, like '/api' ou '/service'
+#
+
+
+
+
+#  end of all controllers APIs
+
+# map static resources from the /public folder to the /assets URL path
+GET     /assets/*file               controllers.Assets.versioned(file)
