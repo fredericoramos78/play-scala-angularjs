@@ -12,3 +12,5 @@
 /mongodb/log
 /mongodb/data
 /.cache-main
+/node_modules
+/dist
